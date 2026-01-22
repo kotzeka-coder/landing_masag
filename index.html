@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Массаж и восстановление — запись онлайн</title>
+  <meta name="description" content="Массаж: спина, шея, расслабляющий, спортивный. Запись онлайн, удобное время, студия в центре." />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="wrap hero">
+    <nav class="nav">
+      <div class="logo">MASSAGE STUDIO</div>
+      <div class="navlinks">
+        <a href="#services">Услуги</a>
+        <a href="#prices">Цены</a>
+        <a href="#about">О мастере</a>
+        <a href="#contacts" class="btn sm">Записаться</a>
+      </div>
+    </nav>
+
+    <div class="heroGrid">
+      <div class="heroText">
+        <div class="badge">Свободные окна сегодня • Запись за 1 минуту</div>
+        <h1>Массаж, после которого реально отпускает</h1>
+        <p class="lead">
+          Спина, шея, расслабляющий и спортивный массаж. Без “поглаживаний” — работаем по ощущениям и результату.
+        </p>
+
+        <div class="heroBtns">
+          <a class="btn" href="#contacts">Записаться</a>
+          <a class="btn ghost" href="#services">Выбрать услугу</a>
+        </div>
+
+        <div class="bullets">
+          <div class="b">⏱ 60–90 минут</div>
+          <div class="b">📍 Уютная студия</div>
+          <div class="b">💬 Подбор под запрос</div>
+        </div>
+      </div>
+
+      <div class="heroMedia">
+        <!-- положи картинку в img/hero.jpg или оставь как есть -->
+        <img class="heroImg" src="./img/hero.jpg" alt="Массаж" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"/>
+        <div class="heroPlaceholder" style="display:none;">
+          <div class="phTitle">Фото студии</div>
+          <div class="phText">Загрузи img/hero.jpg — и тут будет картинка</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="services" class="section">
+      <h2>Услуги</h2>
+      <p class="muted">Выбирай формат — под состояние и цель.</p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Расслабляющий массаж</h3>
+          <p>Снимаем напряжение, улучшаем сон, возвращаем тело “в норму”.</p>
+          <div class="meta">60 мин • зона: спина/шея</div>
+        </article>
+
+        <article class="card">
+          <h3>Спина + шея</h3>
+          <p>Если “деревянная” спина, голова тяжёлая и зажимы в плечах.</p>
+          <div class="meta">60 мин • приоритетные точки</div>
+        </article>
+
+        <article class="card">
+          <h3>Спортивный массаж</h3>
+          <p>Восстановление после нагрузки, работа с мышцами глубже.</p>
+          <div class="meta">75–90 мин • интенсивно</div>
+        </article>
+      </div>
+    </section>
+
+    <section id="prices" class="section">
+      <h2>Цены</h2>
+      <div class="priceGrid">
+        <div class="price">
+          <div class="pTitle">60 минут</div>
+          <div class="pValue">от 2 500 ₽</div>
+          <div class="pText muted">Расслабляющий / спина+шея</div>
+        </div>
+        <div class="price">
+          <div class="pTitle">90 минут</div>
+          <div class="pValue">от 3 500 ₽</div>
+          <div class="pText muted">Спортивный / комплекс</div>
+        </div>
+        <div class="price">
+          <div class="pTitle">Курс 5 сеансов</div>
+          <div class="pValue">−10%</div>
+          <div class="pText muted">Лучше эффект и дешевле</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div>
+        <h2>О мастере</h2>
+        <p class="muted">
+          Работаю аккуратно, но по делу. Перед сеансом — короткий опрос, после — рекомендации по самопомощи.
+        </p>
+        <ul class="list">
+          <li>✅ индивидуальная сила давления</li>
+          <li>✅ стерильность и комфорт</li>
+          <li>✅ понятный результат после 1–2 сеансов</li>
+        </ul>
+      </div>
+
+      <div class="aboutMedia">
+        <img class="aboutImg" src="./img/room.jpg" alt="Кабинет" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"/>
+        <div class="heroPlaceholder" style="display:none;">
+          <div class="phTitle">Фото кабинета</div>
+          <div class="phText">Загрузи img/room.jpg — и тут будет картинка</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="section contact">
+      <h2>Запись</h2>
+      <p class="muted">Напиши в Telegram — отвечу и предложу свободные окна.</p>
+
+      <div class="contactCard">
+        <div>
+          <div class="small muted">Telegram</div>
+          <div class="big">@evg_space_engineer</div>
+        </div>
+        <a class="btn" href="https://t.me/evg_space_engineer" target="_blank" rel="noreferrer">Открыть Telegram</a>
+      </div>
+
+      <div class="note muted">Демо-лендинг для портфолио. Текст и цены можно адаптировать под любого клиента.</div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <div>© <span id="y"></span> Massage Studio</div>
+    <div class="muted">Запись • Услуги • Цены</div>
+  </footer>
+
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
